@@ -1,6 +1,17 @@
 rooli = 'anonymous'
 on_ratkaissut = False
 
+'''
+>>> True and True
+True
+>>> True and False
+False
+>>> True or False
+True
+>>> False or False
+False
+'''
+
 on_henkilokuntaa = (rooli == 'admin') or (
     rooli == 'teacher') or (rooli == 'assistant')
 
