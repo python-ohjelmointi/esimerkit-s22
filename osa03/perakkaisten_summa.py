@@ -1,6 +1,10 @@
-mihin_asti = 18
+'''
+Saat tutkia ja muokata tätä esimerkkikoodia harjoitustehtävän idean ymmärtämiseksi
+ja asioiden opettelemiseksi, mutta koodin kopiointi tehtävän ratkaisuun on kielletty.
+'''
 
-# oikea vastaus on 21
+mihin_asti = 18  # oikea vastaus on 21, kun mihin_asti on 18
+
 summa = 0
 
 # pidetään tässä aina "seuraavaa", kasvatetaan aina, kunnes summa ylittää mihin_asti
