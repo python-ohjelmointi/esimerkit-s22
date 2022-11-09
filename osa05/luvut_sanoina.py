@@ -23,14 +23,14 @@ def luku_tekstina(luku: int) -> str:
 
     if luku < 10:
         return tekstina[ykkoset]
-    elif luku == 10:
+    if luku == 10:
         return 'kymmenen'
-    elif luku < 20:
+    if luku < 20:
         return f'{tekstina[ykkoset]}toista'
-    elif ykkoset == 0:
+    if ykkoset == 0:
         return f'{tekstina[kympit]}kymmentä'
-    else:
-        return f'{tekstina[kympit]}kymmentä{tekstina[ykkoset]}'
+
+    return f'{tekstina[kympit]}kymmentä{tekstina[ykkoset]}'
 
 
 def lukukirja() -> dict:
