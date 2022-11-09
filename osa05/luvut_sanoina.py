@@ -1,3 +1,9 @@
+'''
+Saat tutkia ja muokata tätä esimerkkikoodia harjoitustehtävän idean ymmärtämiseksi
+ja asioiden opettelemiseksi, mutta koodin kopiointi tehtävän ratkaisuun on kielletty.
+'''
+
+
 def luku_tekstina(luku: int) -> str:
     '''
     luku_tekstina muodostaa merkkijonon yksittäisestä
