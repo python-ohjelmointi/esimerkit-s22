@@ -22,7 +22,7 @@ logo = r'''
 def pelaa(ruudukko: list) -> bool:
     '''
     Pelaa Sudokua annetulla 2-ulotteisella kokonaislukuruudukolla, kunnes
-    peli on läpäisty tai pelaaja keskeyttää pelin. 
+    peli on läpäisty tai pelaaja keskeyttää pelin.
 
     Palauttaa True tai False riippuen siitä, pelattiinko peli loppuun.
     '''
