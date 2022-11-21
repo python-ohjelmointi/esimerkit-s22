@@ -1,7 +1,6 @@
 .vscode
 env
 __pycache__
-.devcontainer
 .gitattributes
 tmcdata
 koe
